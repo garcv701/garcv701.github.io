@@ -8,3 +8,24 @@ color: purple;
 position: relative;
 top: 200px;
 }
+
+#introp {
+position: relative;
+text-align: left;
+
+}
+
+
+
+#outer {
+    width: 30%;
+	/*text-align: center;*/
+	margin: auto;
+	position: relative;
+	top: 385px;
+}
+
+p {
+	text-indent: 40px;
+
+}
