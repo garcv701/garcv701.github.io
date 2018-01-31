@@ -3,6 +3,9 @@ background-color: lightgray;
 }
 
 h1 {
+ font-family: "optima", sans-serif;
+ font-size: 45px;
+
 text-align: center;
 color: purple;
 position: relative;
@@ -23,9 +26,12 @@ text-align: left;
 	margin: auto;
 	position: relative;
 	top: 385px;
+	padding-bottom: 80px;
 }
 
 p {
+	font-family: "century schoolbook", "garamond", serif;
+ font-size: 18px;
 	text-indent: 40px;
 
 }
