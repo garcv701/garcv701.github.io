@@ -1,0 +1,88 @@
+a {
+	color: purple;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
+a:active {
+	color: white;
+}
+
+
+body {
+background-color: rgb(230, 255, 250);
+}
+
+
+h1 {
+	width: 100%;
+ font-family: "century schoolbook", "garamond" serif;
+ font-size: 45px;
+text-align: right;
+right: 3%;
+color: black;
+position: relative;
+
+}
+
+
+
+p {
+	font-family: "century schoolbook", "garamond", serif;
+	color: black;
+ font-size: 18px;
+	left: 3%;
+	position: relative;
+}
+
+#ho {
+	width: 20%;
+}
+
+#ho:hover:after 
+{
+	width: 100%;
+	display: inline-block;
+	content: url(ho.png);
+	position: relative;
+
+	transform: translate(0%, 0%); 
+	transform: scale(.25);
+cursor: pointer;	
+}
+
+#evelin {
+	width: 20%;
+}
+
+#evelin:hover:after 
+{
+	width: 100%;
+	display: inline-block;
+	content: url(evelin.png);
+	position: relative;
+
+	transform: translate(0%, 0%); 
+	transform: scale(.25);
+cursor: pointer;	
+}
+
+
+#vincent {
+	width: 20%;
+}
+
+#vincent:hover:after 
+{
+	width: 100%;
+	display: inline-block;
+	content: url(vincent.png);
+	position: relative;
+
+	transform: translate(0%, 0%); 
+	transform: scale(.25);
+cursor: pointer;	
+}
