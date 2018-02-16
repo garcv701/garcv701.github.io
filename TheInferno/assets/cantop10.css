@@ -1,0 +1,150 @@
+a:link {
+	color: red;
+	text-decoration: none;
+}
+
+a:visited {
+	color: red;
+}
+
+
+a:active {
+	color: white;
+}
+
+@font-face { font-family: 'AGaramondPro-Regular'; src: url('assets/fonts/AGaramondPro-Regular.eot') format('embedded-opentype'), url('assets/fonts/AGaramondPro-Regular.woff') format('woff'), url('assets/fonts/AGaramondPro-Regular.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+
+
+body {
+background-color: rgb(0, 0, 0);
+}
+
+#arrowleft {
+position: fixed;
+left: 2.5%;
+bottom: 0%;
+
+
+}
+
+#arrowright {
+position: fixed;
+right: 2.5%;
+bottom: 0%;
+
+
+}
+
+ /*.arrow {
+	position: absolute;
+	top: 50%;
+	width: 3vmin;
+	height: 3vmin;
+	background: transparent;
+	border-top: 1vmin solid white;
+	border-right: 1vmin solid white;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+	
+	&.left {
+		left: 0;
+		transform: translate3d(0,-50%,0) rotate(-135deg);
+	}
+
+	&.right {
+		right: 0;
+		transform: translate3d(0,-50%,0) rotate(45deg);
+	}
+	
+	&:hover {
+		border-color: orange;
+		box-shadow: 0.5vmin -0.5vmin 0 white;
+	}
+	
+	&:before { // for better hit area
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-40%,-60%) rotate(45deg);
+		width: 200%;
+		height: 200%;
+	}
+}*/
+
+#frwrd {
+position: relative;
+margin: auto;
+text-align: center;
+
+}
+
+
+#forward {
+position: relative;
+text-align: left;
+
+}
+
+p {
+position: relative;
+
+	color: rgb(255, 0, 0);
+
+font-family: "AGaramondPro-Regular", serif;
+font-size: 30px;
+}
+
+#textspace {
+	position: relative;
+
+	top: 80px;
+width: 25%;
+padding-bottom: 45%;
+margin: auto;
+font-family: "AGaramondPro-Regular", serif;
+font-size: 25px;
+}
+
+h1 {
+ width: 100%;
+ font-family: "AGaramondPro-Regular", serif;
+ font-size: 45px;
+position: fixed;
+text-align: center;
+bottom: -2.5%;
+
+}
+
+.shape {
+	width: 100%;
+	height: 11%;
+left: 0%;
+	position: fixed;
+	display: inline-block;
+	bottom: 0%;
+	background-color: rgb(0, 0, 0);
+	
+}
+
+
+span {
+	float: right;
+
+}
+
+ {
+	position: fixed;
+	text-align: right;
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent; 
+  border-left: 60px solid blue;
+  border-right:60px solid blue; 
+}
+
+
+
+
+}
