@@ -1,0 +1,63 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #f7dbb5;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+	position: absolute;
+	width: 60%;
+	height: 53%;
+	left: 20%;
+	top: 25%;
+
+	-webkit-transform: ;
+	transform: skew(50deg) ;
+		background: #c2dbf7;
+}
+
+.bananacup {
+	
+}
+
+.cup {
+	position: absolute;
+	top: 50%;
+	width: 9%;
+	height: 15%;
+	background-color: white;
+	 -moz-border-radius-bottomleft: 100%25%;
+  -webkit-border-bottom-left-radius: 100%25%;
+  border-bottom-left-radius: 100%25%;
+  -moz-border-radius-bottomright: 100%25%;
+  -webkit-border-bottom-right-radius: 100%25%;
+  border-bottom-right-radius: 100%25%;
+}
+
+.cupoval {
+	z-index: 1;
+	position: absolute;
+	top: 48%;
+	background-color: gray;
+	width: 9%;
+	height: 5%;
+	border-radius: 100%
+}
+
+
+/* Your CSS goes here */
