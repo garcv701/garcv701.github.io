@@ -37,7 +37,7 @@ body {
 
 .cup {
 	position: absolute;
-	top: 50%;
+	top: 3%;
 	width: 9%;
 	height: 15%;
 	background-color: white;
@@ -52,7 +52,7 @@ body {
 .cupoval {
 	z-index: 1;
 	position: absolute;
-	top: 48%;
+
 	background-color: gray;
 	width: 9%;
 	height: 5%;
