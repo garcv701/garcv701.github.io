@@ -177,7 +177,7 @@ line-height: 1;
 
 
 img:hover {
-	filter: brightness(140%);
+	filter: brightness(130%);
 }
 
 img {
@@ -189,7 +189,11 @@ border-color: black;
 border-style: solid;
   box-shadow: 0 0 0 4px white,
               0 0 0 8px black;
-
+-webkit-filter: grayscale(50%);
+  -moz-filter: grayscale(50%);
+  -ms-filter: grayscale(50%);
+  -o-filter: grayscale(50%);
+  filter: grayscale(50%);
 }
 
 
