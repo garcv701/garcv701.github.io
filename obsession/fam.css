@@ -1,10 +1,13 @@
 a {
 	color: black;
 	text-decoration: none;
+	display: block;
+	
 }
 
 a:hover {
 	color: red;
+
 }
 
 a:active {
@@ -15,6 +18,7 @@ a:active {
 body {
 background-color: rgb(255, 228, 16);
 }
+
 
 
 h1 {
@@ -88,22 +92,17 @@ width: 80px;
 	margin-top: 20px;
 	position: relative;
 	width: 100%;
-	text-align: center;	
+	text-align: center;
+
 }
 
-.outerstripeari {
-	top: -39vw;
+.outerstripepop {
+	top: -42vw;
 	position: relative;
 	width: 100%;
 	text-align: center;	
 }
 
-.outerstripebart {
-	top: -39vw;
-	position: relative;
-	width: 100%;
-	text-align: center;	
-}
 
 .middlestripe {
 	width: 75%;
@@ -117,9 +116,9 @@ border-style: solid;
               0 0 0 8px black;
 }
 
-#cardstripe:hover {
+#cardstripe:hover{
+	background: sienna;
 
-	background: orange;
 }
 
 #cardstripe {
@@ -130,7 +129,7 @@ border-style: solid;
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: darkorange;
+	background: saddlebrown;
 padding: 0;
 
 }
@@ -149,7 +148,7 @@ padding: 0;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
 text-shadow: -.75vw .5vw black;
-line-height: .85;
+line-height: 1;
 text-align: right;
 }
 
@@ -240,7 +239,7 @@ width: 10vw;
 
 
 #staff {
-	
+
 	text-align: center;
 	font-size: 3vw;
 	position: relative;
@@ -391,7 +390,7 @@ width: 100%;
 	position: relative;
 	width: 100%;
 	
-	background: orange;
+	background: sienna;
 padding: 0;
   overflow:hidden;
 
@@ -446,5 +445,4 @@ h4:hover {
 		text-shadow: -.9vw .58vw black;
 
 }
-
 

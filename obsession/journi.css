@@ -91,20 +91,6 @@ width: 80px;
 	text-align: center;	
 }
 
-.outerstripeari {
-	top: -39vw;
-	position: relative;
-	width: 100%;
-	text-align: center;	
-}
-
-.outerstripebart {
-	top: -39vw;
-	position: relative;
-	width: 100%;
-	text-align: center;	
-}
-
 .middlestripe {
 	width: 75%;
 	margin-left: auto;
@@ -117,11 +103,6 @@ border-style: solid;
               0 0 0 8px black;
 }
 
-#cardstripe:hover {
-
-	background: orange;
-}
-
 #cardstripe {
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -130,7 +111,7 @@ border-style: solid;
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: darkorange;
+	background: royalblue;
 padding: 0;
 
 }
@@ -149,7 +130,7 @@ padding: 0;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
 text-shadow: -.75vw .5vw black;
-line-height: .85;
+line-height: 1;
 text-align: right;
 }
 
@@ -240,12 +221,11 @@ width: 10vw;
 
 
 #staff {
-	
-	text-align: center;
-	font-size: 3vw;
+
+		text-align: center;
+	font-size: 1.9vw;
 	position: relative;
-	left: ;
-	bottom: ;
+	top: 2vw;
 }
 
 .star:hover {
@@ -391,7 +371,7 @@ width: 100%;
 	position: relative;
 	width: 100%;
 	
-	background: orange;
+	background: royalblue;
 padding: 0;
   overflow:hidden;
 
