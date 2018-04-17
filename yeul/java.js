@@ -1,4 +1,7 @@
 
+var person = prompt("Get something off your chest:");
+
+
 (function makeDiv(){
     var divsize = ((Math.random()*100) + 50).toFixed().toString(16);
     var color = '#'+ Math.round(0xffffff * Math.random());
@@ -17,6 +20,7 @@
         'left':posx+'px',
         'top':posy+'px',
         'display':'none'
+
     }).appendTo( 'body' ).fadeIn(500).delay(300).fadeOut(200, function(){
        $(this).remove();
        makeDiv(); 
