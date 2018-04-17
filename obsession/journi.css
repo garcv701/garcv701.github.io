@@ -91,6 +91,54 @@ width: 80px;
 	text-align: center;	
 }
 
+.outerstripelilst {
+	margin-top: -35vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripemike {
+	margin-top: -42.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripepanch {
+	margin-top: -39vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripeshad {
+	margin-top: -34vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripestret {
+	margin-top: -42.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripesupstret {
+	margin-top: -38.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+
+
 .middlestripe {
 	width: 75%;
 	margin-left: auto;
@@ -101,6 +149,11 @@ border-color: black;
 border-style: solid;
   box-shadow: 0 0 0 4px white,
               0 0 0 8px black;
+}
+
+#cardstripe:hover {
+	background: cornflowerblue;
+
 }
 
 #cardstripe {

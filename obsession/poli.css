@@ -91,6 +91,122 @@ width: 80px;
 	text-align: center;	
 }
 
+
+.outerstripeben {
+	margin-top: -42vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebigb {
+	margin-top: -42vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebigg {
+	margin-top: -35vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripeboner {
+	margin-top: -38.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripecon {
+	margin-top: -38vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripekick {
+	margin-top: -36.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+
+.outerstripeell {
+	margin-top: -40vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripefraz {
+	margin-top: -43.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripefred {
+	margin-top: -38vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripehog {
+	margin-top: -32vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripepab {
+	margin-top: -41.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripeped {
+	margin-top: -36vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripered {
+	margin-top: -36.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstriperock {
+	margin-top: -40vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripesab {
+	margin-top: -45.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
 .middlestripe {
 	width: 75%;
 	margin-left: auto;
@@ -103,6 +219,11 @@ border-style: solid;
               0 0 0 8px black;
 }
 
+#cardstripe:hover {
+
+	background: green;
+}
+
 #cardstripe {
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -111,7 +232,7 @@ border-style: solid;
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: green;
+	background: darkgreen;
 padding: 0;
 
 }
@@ -132,6 +253,7 @@ padding: 0;
 text-shadow: -.75vw .5vw black;
 line-height: 1;
 text-align: right;
+
 }
 
 
@@ -154,7 +276,7 @@ padding: 0;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
 text-shadow: -.75vw .5vw black;
-line-height: .85;
+line-height: 1;
 }
 
 
@@ -221,8 +343,8 @@ width: 10vw;
 
 
 #staff {
-
-	text-align: center;
+	
+text-align: center;
 	font-size: 1.9vw;
 	position: relative;
 	top: 2vw;

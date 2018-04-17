@@ -92,18 +92,156 @@ width: 80px;
 }
 
 .outerstripeari {
-	top: -39vw;
+	margin-top: -39vw;
 	position: relative;
 	width: 100%;
 	text-align: center;	
 }
 
 .outerstripebart {
-	top: -39vw;
+	margin-top: -39vw;
 	position: relative;
 	width: 100%;
 	text-align: center;	
 }
+
+.outerstripebc {
+	margin-top: -39vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebo {
+	margin-top: -37vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebl {
+	margin-top: -39vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebro {
+	margin-top: -44vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripebrown {
+	margin-top: -42vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebull {
+	margin-top: -37vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripefred {
+	margin-top: -40vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripeguru {
+	margin-top: -39vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripeproph {
+	margin-top: -40vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripehorn {
+	margin-top: -37vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripemarg {
+	margin-top: -38vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripebulb {
+	margin-top: -36vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripemnm {
+	margin-top: -38vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstriperum {
+	margin-top: -40vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripetang {
+	margin-top: -43.5vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripetiny {
+	margin-top: -40vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripeturd {
+	margin-top: -41vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripevice {
+	margin-top: -38vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripehero {
+	margin-top: -38vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
 
 .middlestripe {
 	width: 75%;
@@ -149,8 +287,9 @@ padding: 0;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
 text-shadow: -.75vw .5vw black;
-line-height: .85;
+line-height: 1;
 text-align: right;
+
 }
 
 

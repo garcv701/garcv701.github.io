@@ -92,6 +92,40 @@ width: 80px;
 	text-align: center;	
 }
 
+
+.outerstripefly {
+	margin-top: -44vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstripeken {
+	margin-top: -37vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+.outerstriperose {
+	margin-top: -34vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.outerstripewead {
+	margin-top: -34vw;
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+
+
+
 .middlestripe {
 	width: 75%;
 	margin-left: auto;
@@ -104,6 +138,14 @@ border-style: solid;
               0 0 0 8px black;
 }
 
+
+
+#cardstripe:hover {
+
+background: mediumorchid;
+}
+
+
 #cardstripe {
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -112,7 +154,7 @@ border-style: solid;
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: mediumorchid;
+	background: darkorchid;
 padding: 0;
 
 }

@@ -1,0 +1,48 @@
+body{
+background-color: aquamarine;
+}
+
+video {
+  width: 100%;
+}
+
+
+.homevid {
+	position: relative;
+	max-width: 900px;
+  /*width: 816px;*/
+	padding: 30px;
+	margin: auto;
+	font-weight: 300;
+  height: -webkit-calc(50% - 18px);
+   height: calc(50% - 18px);
+   display: block;
+   background-color: lightgray;
+}
+
+.objvid {
+	margin-right: 3vw;
+	top: 3vw;
+	max-width: 900px;
+  /*width: 816px;*/
+	padding: 30px;
+	margin: auto;
+	font-weight: 300;
+  height: -webkit-calc(50% - 18px);
+   height: calc(50% - 18px);
+   display: block;
+   background-color: lightgray;
+   position: relative;
+}
+
+
+#title {
+	text-align: center;
+	font-size: 4vw;
+	width: 100%;
+	position: relative;
+margin-left: auto;
+margin-right: auto;
+margin: 0 auto;
+font: Arial Rounded MT Bold;
+}
