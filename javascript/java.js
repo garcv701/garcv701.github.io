@@ -41,3 +41,8 @@ console.log('All students here?', Boolean (allStudentsHere == studentGroupOne.le
 	studentGroupThree.length + studentGroupFour.length + studentGroupFive.length + studentGroupSix.length + 
 	studentGroupSeven.length));
 
+var bonusStudents = ['studentGroupOne', 'studentGroupTwo', 'studentGroupThree', 'studentGroupFour', 'studentGroupFive', 'studentGroupSix', 'studentGroupSeven'];
+
+for ( var i = 0; i < bonusStudents.length; i++ ) {
+  console.log( bonusStudents[i] + ' is in index ' + i );
+}
