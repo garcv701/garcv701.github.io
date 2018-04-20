@@ -51,8 +51,9 @@ h1 {
 
 h2{
 			font-family: Myanmar MN, sans-serif;
+	right: 7.5vw;
 
-	text-align: center;
+	text-align: right;
 	color: gray;
 	font-size: 2vw;
 	margin-bottom: 4vw;
@@ -77,8 +78,8 @@ color: gray;
 
 #title {
 		font-family: Myanmar MN, sans-serif;
-
-	text-align: center;
+	right: 7.5%;
+	text-align: right;
 	font-size: 3vw;
 	width: 100%;
 	position: relative;
