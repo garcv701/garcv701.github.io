@@ -1,0 +1,28 @@
+p {
+		
+	color: black;
+	position: relative;
+}
+
+#toggle {
+	font-family: "helvetica", sans-serif;
+	position: relative;
+	text-align: center;
+	width: 200px;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	margin: 0 auto;
+	padding-bottom: 8px;
+	 font-size: 40px;
+
+}
+
+
+#outer {
+	width: 100%;
+}
+
+#gulls {
+	font-size: 80px;
+}

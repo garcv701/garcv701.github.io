@@ -1,0 +1,57 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+
+}
+
+p {
+		
+	color: white;
+	position: relative;
+}
+
+#toggle {
+	font-family: "helvetica", sans-serif;
+	position: fixed;
+	text-align: center;
+	width: 400px;
+	color: white;
+	margin: 0 auto;
+	padding-bottom: 8px;
+	 font-size: 100px;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;}
+
+
+#outerouterbox {
+	width: 100%;
+}
+
+#outerbox {
+	display: block;
+	margin-top: 100px;
+	margin-left: 0 auto;
+	margin-right: 0 auto; 
+	width: 100%;
+	position: fixed;
+}
+
+.box {
+
+	font-family: "helvetica", sans-serif;
+	position: relative;
+	text-align: center;
+	width: 130px;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	margin: 0 auto;
+	padding-bottom: 8px;
+	 font-size: 40px;
+    display: inline-block;
+}
