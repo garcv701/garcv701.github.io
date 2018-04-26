@@ -2,6 +2,6 @@
 
 
     $(document).on("click", function() {
-        $("#balloon").css({"bottom", "85px"});
+        $("#balloon").animate({"bottom", "85px"});
     });
  
