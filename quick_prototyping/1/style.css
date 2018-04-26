@@ -1,0 +1,67 @@
+/* Your styles go here */
+#outer {
+	width: 100%;
+		text-align: center;
+		margin-top: 400px;
+		background-color: lightgray;
+		height: auto;
+}
+
+#breakpoints {
+	position: relative;
+	display: inline-block;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 45px;
+}
+
+@media (min-width: 200px;) {
+	#outer {
+		height: auto + 10px;
+		background-color: black;
+	}
+
+}
+
+@media (min-width: 400px;) {
+	#outer {
+		height: auto + 10px;
+		background-color: darkgray;
+	}
+
+}
+
+
+
+
+@media (max-width: 600px;) {
+#outer {
+	width: 75%;
+	background-color: gray;
+}
+
+}
+
+
+@media (max-width: 800px;) {
+#outer {
+	background-color: lightgray;
+	width: 50%;
+}
+
+}
+
+@media (max-width: 1000px;) {
+	#outer {
+		background-color: white;
+		width: 25%
+	}
+
+}
+
+
+
