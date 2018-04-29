@@ -20,6 +20,9 @@ body {
 background-color: rgb(255, 228, 16);
 }
 
+@font-face { font-family: 'arial black'; src: url('ArialBlack.eot') format('embedded-opentype'), url('ArialBlack.woff') format('woff'), url('ArialBlack.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Arial Rounded MT Bold'; src: url('ArialRoundedBold.eot') format('embedded-opentype'), url('ArialRoundedBold.woff') format('woff'), url('ArialRoundedBold.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+
 
 h1 {
 	width: 60%;
