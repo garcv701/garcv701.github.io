@@ -1,0 +1,1164 @@
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: white;
+}
+
+
+#width {
+	  width: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: scroll;
+}
+
+body {
+background-color: rgb(0, 39, 84);
+overflow: visible;
+width:1200%;
+overflow: scroll;
+}
+
+@font-face { font-family: 'arial black'; src: url('ArialBlack.eot') format('embedded-opentype'), url('ArialBlack.woff') format('woff'), url('ArialBlack.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Arial Rounded MT Bold'; src: url('ArialRoundedBold.eot') format('embedded-opentype'), url('ArialRoundedBold.woff') format('woff'), url('ArialRoundedBold.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+
+
+
+
+p {
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	font-size: 1.63vw;
+	text-align: center;
+	position: relative;
+	color: deepskyblue;
+
+
+}
+
+
+p:hover {
+	opacity: .5;
+}
+
+.svgmoon {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	
+     transform-origin: 50% 0%;
+    animation: orbit 4s linear infinite; 
+    left: 797vw;
+
+}
+
+.svgmoon text {
+	fill: lightgray;
+}
+
+.svg {
+	position: fixed;
+	width: 51%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 7px;
+ 	top: 50%;
+ 	margin: 0 auto;
+	left: 0;
+    right: 0;
+	transform: rotateX(75deg)  translateY(-193%);
+	animation: spinrin 8s linear infinite; 
+}
+
+.svg text {
+	fill: lightgray;
+
+}
+
+@keyframes orbit {
+    from { transform:rotate(0deg) translateX(25vw) ; }
+    to   { transform: rotate(360deg) translateX(25vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.main {
+	transform: translateY(-50%);
+	top: 50%;
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 36.58%;
+ 	overflow:hidden;
+	position: absolute;
+   left: 780vw;
+
+ 
+}
+
+.green {
+	color: darkgreen;
+}
+
+.animation-container {
+	position: static ;
+	
+}
+
+.slide-right {
+ 
+}
+
+.slide-right p {
+	animation: 10s slide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes slide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.slide-right-clone {
+  
+}
+
+.slide-right-clone p {
+	opacity: 0;
+	animation: 10s slide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes slide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nepmoons{
+	position: absolute;
+	left: 50vw;
+}
+
+.svgproteus {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 5.4px;
+ 	top: 50%;
+	transform: translateY(-50%);
+	left: 44vw;
+
+     transform-origin: 50% 0%;
+    animation: orbittitan 12s linear infinite; 
+
+}
+
+.svgproteus text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbittitan {
+    from { transform:rotate(120deg) translateX(37.65vw) ; }
+    to   { transform: rotate(480deg) translateX(37.65vw) ; }
+}
+
+.svgtriton {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 2.5px;
+ 	top: 50%;
+	transform: translateY(-50%);
+	left: 44vw;
+
+     transform-origin: 50% 0%;
+    animation: orbitlap 5s linear infinite; 
+
+}
+
+.svgtriton text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbitlap {
+    from { transform:rotate(0deg) translateX(47vw) ; }
+    to   { transform: rotate(360deg) translateX(47vw) ; }
+}
+
+
+
+.svgnereid {
+	position: absolute;
+	left: 44vw;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 2.5px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	
+     transform-origin: 50% 0%;
+    animation: orbit 9s linear infinite; 
+
+}
+
+.svgnereid text {
+	fill: lightgray;
+}
+
+.svg {
+	position: fixed;
+	width: 60%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	
+ 	letter-spacing: 4.2px;
+ 	top: 50%;
+ 	margin: 0 auto;
+	left: 0;
+    right: 0;
+	transform: rotateX(75deg)  translateY(-193%);
+	animation: spinrin 8s linear infinite; 
+}
+
+.svg text {
+	fill: lightcyan;
+
+}
+
+@keyframes orbit {
+    from { transform:rotate(240deg) translateX(28vw) ; }
+    to   { transform: rotate(600deg) translateX(28vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.mainnep {
+	transform: translateY(-50%);
+	top: 50%;
+	clip-path: circle(11vw at center);
+	margin: 0 auto;
+ 	width: 41.9%;
+ 	overflow:hidden;
+	position: absolute;
+   left: 28vw;
+ 	
+}
+
+
+.darkblue {
+	color: rgb(21,103,223);
+}
+
+
+.white {
+	color: white;
+}
+
+
+.nepanimation-container {
+	position: static;
+
+	left: 
+}
+
+.nepslide-right {
+ 
+}
+
+.nepslide-right p {
+	animation: 10s nepslide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes nepslide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.nepslide-right-clone {
+  
+}
+
+.nepslide-right-clone p {
+	opacity: 0;
+	animation: 10s nepslide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes nepslide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.svgtitana {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	
+     transform-origin: 50% 0%;
+    left: 198vw;
+    animation: orbittitan 12s linear infinite; 
+
+}
+
+.svgtitana text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbittitan {
+    from { transform:rotate(120deg) translateX(37.65vw) ; }
+    to   { transform: rotate(480deg) translateX(37.65vw) ; }
+}
+
+.svgoberon {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	
+     transform-origin: 50% 0%;
+    left: 198vw;
+    animation: orbitlap 5s linear infinite; 
+
+}
+
+.svgoberon text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbitlap {
+    from { transform:rotate(0deg) translateX(47vw) ; }
+    to   { transform: rotate(360deg) translateX(47vw) ; }
+}
+
+
+
+.svgumbri {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	
+     transform-origin: 50% 0%;
+    animation: orbit 4s linear infinite; 
+    left: 198vw;
+
+
+}
+
+.svgumbri text {
+	fill: lightgray;
+}
+
+.svg {
+	position: absolute;
+	width: 60%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	
+ 	letter-spacing: 4.2px;
+ 	top: 50%;
+ 	margin: 0 auto;
+	left: 0;
+    right: 0;
+	transform: rotateX(75deg)  translateY(-193%);
+	animation: spinrin 8s linear infinite; 
+}
+
+.svg text {
+	fill: lightcyan;
+
+}
+
+@keyframes orbit {
+    from { transform:rotate(240deg) translateX(28vw) ; }
+    to   { transform: rotate(600deg) translateX(28vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.uranmain {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(11vw at center);
+	margin: 0 auto;
+ 	width: 45vw;
+ 	height: 30vw;
+ 	overflow:hidden;
+	position: absolute;
+    left: 180vw;
+
+ 
+}
+
+
+
+.urananimation-container {
+	position: static;
+	width: 100%;
+}
+
+.uranslide-right {
+ 
+}
+
+.uranslide-right p {
+	animation: 10s uranslide-right linear infinite;
+	margin:0 auto;
+
+}
+
+@keyframes uranslide-right { 
+  from {
+    transform: translateY(-100%);
+   }
+  to {
+    transform: translateY(100%);
+  } 
+}
+
+.uranslide-right-clone {
+  
+}
+
+.uranslide-right-clone p {
+	opacity: 0;
+	animation: 10s uranslide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes uranslide-right-clone { 
+  from {
+    transform: translateY(-100%);
+   }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.svgtitan {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 5px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 367.5vw;
+     transform-origin: 50% 0%;
+    animation: orbittitan 12s linear infinite; 
+
+}
+
+.svgtitan text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbittitan {
+    from { transform:rotate(120deg) translateX(37.5vw) ; }
+    to   { transform: rotate(480deg) translateX(37.5vw) ; }
+}
+
+.svglapetus {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 5.6px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 367.5vw;
+     transform-origin: 50% 0%;
+    animation: orbitlap 5s linear infinite; 
+
+}
+
+.svglapetus text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbitlap {
+    from { transform:rotate(0deg) translateX(47vw) ; }
+    to   { transform: rotate(360deg) translateX(47vw) ; }
+}
+
+
+
+.svgrhea {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6.5px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 367.5vw;
+     transform-origin: 50% 0%;
+    animation: orbit 9s linear infinite; 
+
+}
+
+.svgrhea text {
+	fill: lightgray;
+}
+
+.svg {
+	position: absolute;
+	width: 60%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	
+ 	letter-spacing: 4.2px;
+ 	top: 50%;
+ 
+	left: 342vw;
+    
+	transform: rotateX(75deg)  translateY(-193%);
+	animation: spinrin 8s linear infinite; 
+}
+
+.svg text {
+	fill: lightcyan;
+
+}
+
+@keyframes orbit {
+    from { transform:rotate(240deg) translateX(28vw) ; }
+    to   { transform: rotate(600deg) translateX(28vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.satmain {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 44%;
+ 	overflow:hidden;
+	position: absolute;
+    left: 350vw;
+ 
+}
+
+.moc {
+	color: moccasin;
+}
+
+.wood {
+	color: burlywood;
+}
+
+.satanimation-container {
+	position: static;
+	width: 100%;
+}
+
+.satslide-right {
+ 
+}
+
+.satslide-right p {
+	animation: 10s satslide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes satslide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.satslide-right-clone {
+  
+}
+
+.satslide-right-clone p {
+	opacity: 0;
+	animation: 10s satslide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes satslide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.svggany {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 3.2px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 515vw;
+     transform-origin: 50% 0%;
+    animation: orbittitan 12s linear infinite; 
+
+}
+
+.svggany text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbittitan {
+    from { transform:rotate(120deg) translateX(37.65vw) ; }
+    to   { transform: rotate(480deg) translateX(37.65vw) ; }
+}
+
+.svgcallisto {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 4.4px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 515vw;
+     transform-origin: 50% 0%;
+    animation: orbitlap 5s linear infinite; 
+
+}
+
+.svgcallisto text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbitlap {
+    from { transform:rotate(0deg) translateX(47vw) ; }
+    to   { transform: rotate(360deg) translateX(47vw) ; }
+}
+
+
+
+.svgio {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6.5px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 515vw;
+     transform-origin: 50% 0%;
+    animation: orbit 9s linear infinite; 
+
+}
+
+.svgio text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbit {
+    from { transform:rotate(240deg) translateX(28vw) ; }
+    to   { transform: rotate(600deg) translateX(28vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.jupmain {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 37.3%;
+ 	overflow:hidden;
+	position: absolute;
+    left: 500vw;
+  
+ 
+}
+
+.coral {
+	color: coral;
+}
+
+.rosybrown {
+	color: rgba(220,170,155,100);
+}
+
+.lightgold {
+	color: lightgoldenrodyellow;
+}
+.greengray {
+	color: darkseagreen;
+}
+
+.jupanimation-container {
+	position: static;
+	width: 100%;
+}
+
+.jupslide-right {
+ 
+}
+
+.jupslide-right p {
+	animation: 10s jupslide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes jupslide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.jupslide-right-clone {
+  
+}
+
+.jupslide-right-clone p {
+	opacity: 0;
+	animation: 10s jupslide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes jupslide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+.svgphobos {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 1.98px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 628.5vw;
+     transform-origin: 50% 0%;
+    animation: orbittitan 12s linear infinite; 
+
+}
+
+.svgphobos text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbittitan {
+    from { transform:rotate(120deg) translateX(37.65vw) ; }
+    to   { transform: rotate(480deg) translateX(37.65vw) ; }
+}
+
+
+
+
+
+
+
+.svgdeimos {
+	position: absolute;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 2px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	left: 628.5vw;
+     transform-origin: 50% 0%;
+    animation: orbit 9s linear infinite; 
+
+}
+
+.svgdeimos text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbit {
+    from { transform:rotate(240deg) translateX(28vw) ; }
+    to   { transform: rotate(600deg) translateX(28vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.marsmain {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 41.5%;
+ 	overflow:hidden;
+	position: absolute;
+    left: 610vw;
+   
+ 
+}
+
+.darkorange {
+	color: brown;
+}
+
+
+.gray {
+	color: lightgray;
+}
+
+
+.marsanimation-container {
+	position: static;
+	width: 100%;
+}
+
+.marsslide-right {
+ 
+}
+
+.marsslide-right p {
+	animation: 10s marsslide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes marsslide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.marsslide-right-clone {
+  
+}
+
+.marsslide-right-clone p {
+	opacity: 0;
+	animation: 10s marsslide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes marsslide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.mercmain {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 43.3%;
+ 	overflow:hidden;
+	position: absolute;
+    left: 920vw;
+ 
+}
+
+.darkorange {
+	color: brown;
+}
+
+
+.gray {
+	color: lightgray;
+}
+
+
+.mercanimation-container {
+	position: static;
+	width: 100%;
+}
+
+.mercslide-right {
+ 
+}
+
+.mercslide-right p {
+	animation: 10s mercslide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes mercslide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.mercslide-right-clone {
+  
+}
+
+.mercslide-right-clone p {
+	opacity: 0;
+	animation: 10s mercslide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes mercslide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+.venusmain {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 43%;
+ 	overflow:hidden;
+	position: absolute;
+    left: 1100vw;
+ 
+}
+
+.darkorange {
+	color: brown;
+}
+
+
+.gray {
+	color: lightgray;
+}
+
+
+.venusanimation-container {
+	position: static;
+	width: 100%;
+}
+
+.venusslide-right {
+ 
+}
+
+.venusslide-right p {
+	animation: 10s venusslide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes venusslide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.venusslide-right-clone {
+  
+}
+
+.venusslide-right-clone p {
+	opacity: 0;
+	animation: 10s slide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes venusslide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+

@@ -19,17 +19,17 @@ p {
 	font-size: 45px;
 }
 
-@media (min-width: 200px;) {
-	#outer {
-		height: auto + 10px;
+@media (max-width: 200px;) {
+	body {
+		
 		background-color: black;
 	}
 
 }
 
-@media (min-width: 400px;) {
-	#outer {
-		height: auto + 10px;
+@media (max-width: 400px;) {
+	body {
+		
 		background-color: darkgray;
 	}
 
@@ -39,7 +39,7 @@ p {
 
 
 @media (max-width: 600px;) {
-#outer {
+body {
 	width: 75%;
 	background-color: gray;
 }
@@ -48,7 +48,7 @@ p {
 
 
 @media (max-width: 800px;) {
-#outer {
+body {
 	background-color: lightgray;
 	width: 50%;
 }
@@ -56,7 +56,7 @@ p {
 }
 
 @media (max-width: 1000px;) {
-	#outer {
+	body {
 		background-color: white;
 		width: 25%
 	}

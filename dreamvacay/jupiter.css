@@ -1,0 +1,196 @@
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: white;
+}
+
+
+body {
+background-color: rgb(0, 39, 84);
+}
+
+@font-face { font-family: 'arial black'; src: url('ArialBlack.eot') format('embedded-opentype'), url('ArialBlack.woff') format('woff'), url('ArialBlack.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Arial Rounded MT Bold'; src: url('ArialRoundedBold.eot') format('embedded-opentype'), url('ArialRoundedBold.woff') format('woff'), url('ArialRoundedBold.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
+
+
+
+
+p {
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	font-size: 1.63vw;
+	text-align: center;
+	position: relative;
+	color: palegoldenrod;
+}
+
+.svggany {
+	position: fixed;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 3.2px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	left: 0;
+    right: 0;
+     transform-origin: 50% 0%;
+    animation: orbittitan 12s linear infinite; 
+
+}
+
+.svggany text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbittitan {
+    from { transform:rotate(120deg) translateX(37.65vw) ; }
+    to   { transform: rotate(480deg) translateX(37.65vw) ; }
+}
+
+.svgcallisto {
+	position: fixed;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 4.4px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	left: 0;
+    right: 0;
+     transform-origin: 50% 0%;
+    animation: orbitlap 5s linear infinite; 
+
+}
+
+.svgcallisto text {
+	fill: lightgray;
+}
+
+
+
+@keyframes orbitlap {
+    from { transform:rotate(0deg) translateX(47vw) ; }
+    to   { transform: rotate(360deg) translateX(47vw) ; }
+}
+
+
+
+.svgio {
+	position: fixed;
+	width: 9%;
+	font-family: "Arial Rounded MT Bold", "helvetica", sans-serif;
+ 	color: lightgray;
+ 	letter-spacing: 6.5px;
+ 	top: 50%;
+	transform: translateY(-50%);
+
+	margin: 0 auto;
+	left: 0;
+    right: 0;
+     transform-origin: 50% 0%;
+    animation: orbit 9s linear infinite; 
+
+}
+
+.svgio text {
+	fill: lightgray;
+}
+
+
+@keyframes orbit {
+    from { transform:rotate(240deg) translateX(28vw) ; }
+    to   { transform: rotate(600deg) translateX(28vw) ; }
+}
+
+
+@keyframes spinring {
+    from { transform:rotateY(0deg)  rotateX(75deg) ; }
+    to   { transform: rotateY(360deg)  rotateX(75deg) ; }
+}
+
+.main {
+	top: 50%;
+	transform: translateY(-50%);
+	clip-path: circle(15vw at center);
+	margin: 0 auto;
+ 	width: 37.25%;
+ 	overflow:hidden;
+	position: fixed;
+    left: 0;
+    right: 0;
+ 
+}
+
+.coral {
+	color: coral;
+}
+
+.rosybrown {
+	color: rgba(220,170,155,100);
+}
+
+.lightgold {
+	color: lightgoldenrodyellow;
+}
+.greengray {
+	color: darkseagreen;
+}
+
+.animation-container {
+	position: fixed;
+	width: 100%;
+}
+
+.slide-right {
+ 
+}
+
+.slide-right p {
+	animation: 10s slide-right linear infinite;
+	margin:0;
+
+}
+
+@keyframes slide-right { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  } 
+}
+
+.slide-right-clone {
+  
+}
+
+.slide-right-clone p {
+	opacity: 0;
+	animation: 10s slide-right-clone linear infinite;
+	animation-delay: 5s;
+	margin: 0 auto;
+}
+
+@keyframes slide-right-clone { 
+  from {
+    transform: translateX(100%);
+   }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
