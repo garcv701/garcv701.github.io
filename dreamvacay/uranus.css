@@ -13,7 +13,7 @@ a:active {
 
 
 body {
-background-color: rgb(0, 39, 84);
+background-color: rgb(11, 11, 27);
 }
 
 @font-face { font-family: 'arial black'; src: url('ArialBlack.eot') format('embedded-opentype'), url('ArialBlack.woff') format('woff'), url('ArialBlack.ttf') format('truetype'), /*url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');*/ font-weight: normal; font-style: normal; }
@@ -27,7 +27,7 @@ p {
  	font-size: 1.63vw;
 	text-align: center;
 	position: relative;
-	color: rgb(206,255,242);
+	color: rgb(185,225,225);
 }
 
 .svgtitana {

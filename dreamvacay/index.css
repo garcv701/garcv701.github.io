@@ -1,3 +1,4 @@
+
 a {
 	color: black;
 	text-decoration: none;
@@ -20,7 +21,7 @@ a:active {
 }
 
 body {
-background-color: rgb(0, 39, 84);
+background-color: rgb(11, 11, 27);
 overflow: visible;
 width:1200%;
 overflow: scroll;
@@ -101,7 +102,7 @@ p:hover {
 .main {
 	transform: translateY(-50%);
 	top: 50%;
-	clip-path: circle(15vw at center);
+	clip-path: circle(7.5vw at center);
 	margin: 0 auto;
  	width: 36.58%;
  	overflow:hidden;
@@ -283,13 +284,18 @@ p:hover {
 .mainnep {
 	transform: translateY(-50%);
 	top: 50%;
-	clip-path: circle(11vw at center);
+	clip-path: circle(10vw at center);
 	margin: 0 auto;
  	width: 41.9%;
  	overflow:hidden;
 	position: absolute;
    left: 28vw;
+
  	
+}
+
+.mainnep p {
+	color: rgb(94, 159, 255);
 }
 
 
@@ -471,7 +477,7 @@ p:hover {
 .uranmain {
 	top: 50%;
 	transform: translateY(-50%);
-	clip-path: circle(11vw at center);
+	clip-path: circle(10vw at center);
 	margin: 0 auto;
  	width: 45vw;
  	height: 30vw;
@@ -482,6 +488,10 @@ p:hover {
  
 }
 
+.uranmain p {
+		color: rgb(185,225,225);
+
+}
 
 
 .urananimation-container {
@@ -643,13 +653,17 @@ p:hover {
 .satmain {
 	top: 50%;
 	transform: translateY(-50%);
-	clip-path: circle(15vw at center);
+	clip-path: circle(13vw at center);
 	margin: 0 auto;
  	width: 44%;
  	overflow:hidden;
 	position: absolute;
     left: 350vw;
  
+}
+
+.satmain p {
+	color: papayawhip;
 }
 
 .moc {
@@ -813,6 +827,14 @@ p:hover {
  
 }
 
+
+.jupmain p {
+		color: palegoldenrod;
+
+}
+
+
+
 .coral {
 	color: coral;
 }
@@ -946,7 +968,7 @@ p:hover {
 .marsmain {
 	top: 50%;
 	transform: translateY(-50%);
-	clip-path: circle(15vw at center);
+	clip-path: circle(5.5vw at center);
 	margin: 0 auto;
  	width: 41.5%;
  	overflow:hidden;
@@ -955,6 +977,14 @@ p:hover {
    
  
 }
+
+.marsmain p {
+		color: tomato;
+}
+
+
+
+
 
 .darkorange {
 	color: brown;
@@ -1022,14 +1052,20 @@ p:hover {
 .mercmain {
 	top: 50%;
 	transform: translateY(-50%);
-	clip-path: circle(15vw at center);
+	clip-path: circle(4vw at center);
 	margin: 0 auto;
  	width: 43.3%;
  	overflow:hidden;
 	position: absolute;
-    left: 920vw;
+    left: 1100vw;
  
 }
+
+.mercmain p {
+		color: gray;
+
+}
+
 
 .darkorange {
 	color: brown;
@@ -1096,14 +1132,22 @@ p:hover {
 .venusmain {
 	top: 50%;
 	transform: translateY(-50%);
-	clip-path: circle(15vw at center);
+	clip-path: circle(6.2vw at center);
 	margin: 0 auto;
  	width: 43%;
  	overflow:hidden;
 	position: absolute;
-    left: 1100vw;
+    left: 920vw;
  
+
 }
+
+.venusmain p {
+		color: papayawhip;
+
+}
+
+
 
 .darkorange {
 	color: brown;

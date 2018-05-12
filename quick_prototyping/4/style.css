@@ -1,1 +1,22 @@
 /* Your styles go here */
+#outer {
+	position: fixed;
+	margin-left: 0 auto;
+	
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.img {
+	height: 140vw;
+	position: fixed;
+	left: 0;
+	right: 0;
+		margin-left: 0 auto;
+	text-align: center;
+top: 50%;
+	transform: translateY(-50%);
+}
