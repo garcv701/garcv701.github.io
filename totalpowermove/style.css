@@ -1,0 +1,77 @@
+a:link {
+	color: rgb(58, 189, 170);
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(58, 189, 170);
+
+}
+a:hover {
+	color: rgb(249, 161, 72);
+}
+
+
+
+body {
+background-color: rgb(241,239,142);
+}
+
+
+
+h1 {
+ font-family: "optima", sans-serif;
+ font-size: 45px;
+
+text-align: center;
+color: purple;
+position: relative;
+top: 100px;
+}
+
+#introp {
+position: relative;
+text-align: left;
+
+}
+
+
+
+#outer {
+    width: 30%;
+	/*text-align: center;*/
+	margin: auto;
+	position: relative;
+	top: 150px;
+	padding-bottom: ;
+}
+
+p {
+	font-family: "century schoolbook", "garamond", serif;
+ font-size: 18px;
+	text-indent: 40px;
+	color: rgb(58, 189, 170);
+}
+
+
+
+#contact a:link {
+	color: rgb(249, 161, 72);
+	text-decoration: none;
+}
+
+#contact a:visited {
+	color: rgb(249, 161, 72);
+
+}
+#contact a:hover {
+	color: rgb(58, 189, 170);
+}
+
+
+
+
+
+.mySlides {
+	display:;
+	width: 50vw;
+}
