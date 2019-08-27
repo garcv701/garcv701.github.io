@@ -14,7 +14,7 @@ a:hover {
 
 a:active {
 	color: rgb(255, 255, 255);
-	text-shadow: -3px -3px rgb(255, 255, 255), 3px -3px rgb(255, 255, 255), -3px 3px rgb(255, 255, 255), 3px 3px rgb(255, 255, 255);
+	text-shadow: -20px -20px rgb(255, 255, 255), 20px -20px rgb(255, 255, 255), -20px 20px rgb(255, 255, 255), 20px 20px rgb(255, 255, 255);
 
 	text-decoration: none;
 }
@@ -33,15 +33,27 @@ h1 {
 }
 
 
+p {
+	
+
+}
+
+
+#introp {
+
+
+}
+
 
 
 #outer {
-    width: 30%;
-	/*text-align: center;*/
-	margin: auto;
+   font-family: Verdana, Helvetica, sans-serif;
+ 	font-size: 20px;
+	text-align: center;
+	color: black;
 	position: relative;
-	top: 150px;
-	padding-bottom: ;
+	top: 100px;
+	text-align: center;
 }
 
 

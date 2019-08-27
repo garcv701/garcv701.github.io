@@ -7,18 +7,18 @@ a:visited {
 
 }
 a:hover {
-	color: rgb(127.5, 127.5, 127.5);
+	color: white;
 }
 
 a:active {
-	color: rgb(127.5, 127.5, 127.5);
-	text-shadow: -20px -20px rgb(127.5, 127.5, 127.5), 20px -20px rgb(127.5, 127.5, 127.5), -20px 20px rgb(127.5, 127.5, 127.5), 20px 20px rgb(127.5, 127.5, 127.5);
+	color: white);
+	text-shadow: -20px -20px white, 20px -20px white, -20px 20px white, 20px 20px white;
 
 }
 
 
 body {
-	background-color: white;
+	background-color: rgb(127.5, 127.5, 127.5);
 
 }
 
@@ -49,7 +49,7 @@ h1 {
 
 
 #outer {
-    width: 100%;
+    width: 30%;
 	/*text-align: center;*/
 	margin: auto;
 	position: relative;
